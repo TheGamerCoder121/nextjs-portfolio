@@ -1,3 +1,4 @@
+import React from 'react'; // Add import statement for React
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";

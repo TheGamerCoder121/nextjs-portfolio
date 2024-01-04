@@ -16,8 +16,21 @@
   }
 }
 
+@media (max-width: 100%) {
+  h1 {
+    font-size: 5vw; /* Smaller font size for mobile */
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  .hero-container {
+    padding-top: 60vw; /* More space for the container */
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
+  overflow-x: hidden;
   background: linear-gradient(
       to bottom,
       transparent,
